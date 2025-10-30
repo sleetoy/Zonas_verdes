@@ -16,7 +16,7 @@ import pandas as pd  # Librería para exportar resultados a CSV
 
 
 # --- Configuración de rutas y nombres de archivos ---
-imagen_entrada = "parque.png"           # Nombre de la imagen a analizar
+imagen_entrada = "zona1.png"           # Nombre de la imagen a analizar
 imagen_salida = "parque_verde.png"      # Imagen resultante con zonas verdes resaltadas
 archivo_csv = "resultado_parque.csv"    # Archivo CSV de salida
 
@@ -78,4 +78,5 @@ print("Procesamiento completado:")
 print(f"   Imagen de salida: {imagen_salida}")
 print(f"   CSV generado: {archivo_csv}")
 print(f"   Porcentaje verde: {porcentaje_verde:.2f}%")
+
 
