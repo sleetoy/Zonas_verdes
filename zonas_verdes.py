@@ -1,6 +1,6 @@
 """
 Proyecto: Detección de zonas verdes en una imagen urbana.
-Autor: [Tu nombre]
+Autor: Sebastián Leetoy Flores
 Descripción:
 Este programa analiza imagenes para detectar
 las zonas verdes (vegetación).
@@ -78,3 +78,4 @@ print("Procesamiento completado:")
 print(f"   Imagen de salida: {imagen_salida}")
 print(f"   CSV generado: {archivo_csv}")
 print(f"   Porcentaje verde: {porcentaje_verde:.2f}%")
+
